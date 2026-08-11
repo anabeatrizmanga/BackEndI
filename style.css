@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+div {
+    background-color: aqua;
+    width: 80px;
+    font-size: 30px;
+}
+
+header {
+    background-color: rgb(88, 88, 88);
+    height: 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(52, 148, 222);
+    flex-grow: 1;
+}
+
+footer {
+    background-color: crimson;
+    height: 100px;
+}
+
+body {
+    background-color: #dcdcdc;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+/*
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+*/
+
+}
